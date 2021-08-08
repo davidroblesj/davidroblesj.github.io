@@ -316,13 +316,13 @@ main{
 .image-container{
     /* outline: red solid 5px; */
     /* background-color: rgb(187, 68, 255); */
-    width: clamp(300px, 20vw, 400px);
-    height: 400px;
+    width: clamp(250px, 20vw, 400px);
+    height: clamp(250px, 20vw, 400px);
     position: relative;
 }
 .project-image-container__img{
-    width: 400px;
-    height: 400px;
+    width: clamp(250px, 20vw, 400px);
+    height: clamp(250px, 20vw, 400px);
     display: block;
     object-fit:contain;
 
@@ -374,13 +374,13 @@ main{
           /* width: 10rem; */
   }
   .button-project-container__a{
-      outline: red solid 2px;
+      /* outline: red solid 2px; */
     /* display: block; */
     text-align: center;
     border: lightseagreen solid 2px;
    padding: 0.6rem;
     text-decoration: none;
-    font-size: clamp(0.7rem, 1vw, 1.3rem);
+    font-size: clamp(0.7rem, 1vw, 1.5rem);
     /* width: 10rem; */
     /* width: clamp(9rem, 8%, 20rem); */
     color: white;
