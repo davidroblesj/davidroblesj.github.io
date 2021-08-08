@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi curso de css</title>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' type="text/css" href="estilo.css" />
+    <link rel='stylesheet' type="text/css" href="./normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e0b45ab75d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class='header'>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="#about">About</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="#skills">Skills</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="#work">Projects</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pres-section">
+            <div class="pres-container">
+
+                <h1 class="pres-section__h1">David Robles<br> Científico de la computación y desarrollador de software
+                </h1>
+                <div class="social-container">
+
+
+                    <a class='social-container__a' https://github.com/davidroblesj><i
+                            class="fab fa-github social-container__a-i--active"></i></a>
+
+
+                    <a class='social-container__a' href="https://www.linkedin.com/in/david-robles-jasso-577b77205/"><i
+                            class="fab fa-linkedin-in social-container__a-i--active"></i></a>
+
+
+                    <a class='social-container__a' href="mailto:david.robles2000@hotmail.com"><i
+                            class="fas fa-at social-container__a-i--active"></i></a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id='about' class="about-section-top">
+            <h2 class="about-section-top__h2">Acerca de mí</h2>
+            <section class="about-section-bottom">
+
+                <div class="biography-container">
+
+                    <p class="biography-container__p">Hola! Mi nombre es David Robles Jasso. Soy estudiante de
+                        Licenciatura en
+                        Ciencias con área terminal en Ciencias computacionales y computación
+                        científica. Me apasiona la programación, las matemáticas y todo lo que tenga que ver con
+                        computación. Actualmente estoy iniciando mi camino para convertirme en un desarrollador tanto
+                        web como móvil. Estoy en busca de mi primer acercamiento laboral y estoy ansioso por aprender.
+
+                    </p>
+                    <!-- <p class="biography-container__p"> -->
+
+                    <a href="https://goo.gl/maps/3ZyAgjK4ViACeLwt6" target="_blank" class="biography-container__a"><i
+                            class="fas fa-map-marker-alt biography-container__i"></i>
+                        Cuernavaca, Morelos, México</a>
+                    <!-- </p> -->
+
+                    <a href="https://www.uaem.mx/" target="_blank" class="biography-container__a"><i
+                            class="fas fa-university biography-container__i"></i>
+                        Universidad Autonoma del Estado de
+                        Morelos</a>
+                </div>
+                <figure class='figure-david'>
+                    <img class='figure-david__img' src="./img/iop.jpeg" alt="photo of David Robles">
+                </figure>
+            </section>
+            <a class='about-section-top__anchor-resume' href="resume.pdf" download>download resume</a>
+        </section>
+
+        <section id='skills' class="skills-section-top">
+            <h2 class="skills-section-top__h2">Skills</h2>
+            <section class="skills-section-bottom">
+
+                <div class="skills-container">
+                    <p class="skills-container__p">Lenguajes de programación</p>
+                    <ul class="skill-container">
+                        <li class="skill-container__li">
+                            C
+                        </li>
+                        <li class="skill-container__li">
+                            Python
+                        </li>
+                        <li class="skill-container__li">
+                            Javascript
+                        </li>
+                        <li class="skill-container__li">
+                            Java
+                        </li>
+                        <li class="skill-container__li">
+                            HTML5
+                        </li>
+                        <li class="skill-container__li">
+                            CSS3
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-container">
+                    <p class="skills-container__p">Librerías y frameworks</p>
+                    <ul class="skill-container">
+                        <li class="skill-container__li">
+                            React
+                        </li>
+                        <li class="skill-container__li">
+                            React Native
+                        </li>
+                        <li class="skill-container__li">
+                            Scikit-learn
+                        </li>
+                        <li class="skill-container__li">
+                            Pandas
+                        </li>
+                        <li class="skill-container__li">
+                            Numpy
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-container">
+                    <p class="skills-container__p">Herramientas y servicios</p>
+                    <ul class="skill-container">
+                        <li class="skill-container__li">
+                            Firebase
+                        </li>
+                        <li class="skill-container__li">
+                            Azure
+                        </li>
+                        <li class="skill-container__li">
+                            Git
+                        </li>
+                        <li class="skill-container__li">
+                            MySQL
+                        </li>
+                        <li class="skill-container__li">
+                            Unity
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <p class='skills-bottom-paragraph'>También he trabajado con metodologías de manejo de proyectos como:
+                <span style="color: rgb(178, 62, 255);">Scrum</span> and
+                <span style="color:rgb(178, 62, 255);">Agile</span>.
+            </p>
+            <!-- <a class='skills-section-top__anchor-more' href="#">more ></a> -->
+        </section>
+
+
+        <section id='work' class="projects-section-top">
+            <h2 class="projects-section-top__h2">Algunos de mis proyectos</h2>
+            <section class="projects-section-bottom">
+
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">Uber/Taxi Ride App</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/uber_app.png'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                React Native
+                            </p>
+                            <p class="hover-img-container__p">
+                                Firebase
+                            </p>
+                            <p class="hover-img-container__p">
+                                Android
+                            </p>
+                            <p class="hover-img-container__p">
+                                Google Maps API
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">AI Model for Music Genre Prediction</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/music-ai.jpg'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                Machine Learning
+                            </p>
+                            <p class="hover-img-container__p">
+                                Pandas/Numpy
+                            </p>
+                            <p class="hover-img-container__p">
+                                Scikit-learn
+                            </p>
+                            <p class="hover-img-container__p">
+                                P
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">Basic Figure Drawer</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/dibujador.png'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                Java
+                            </p>
+                            <p class="hover-img-container__p">
+                                Object Oriented Programming
+                            </p>
+                            <p class="hover-img-container__p">
+                                GUI
+                            </p>
+                            <!-- <p class="hover-img-container__p">
+                                Google Maps API
+                            </p> -->
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">Snake 3D</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/3dsnake.png'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                C
+                            </p>
+                            <p class="hover-img-container__p">
+                                OpenGL
+                            </p>
+                            <p class="hover-img-container__p">
+                                glut
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">Portfolio Webpage</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/webpage.png'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                HTML5
+                            </p>
+                            <p class="hover-img-container__p">
+                                CSS3
+                            </p>
+                            <p class="hover-img-container__p">
+                                Javascript
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="project-image-container">
+                    <!-- <div> -->
+                    <p class="project-image-container__p">The binding of Isaac game</p>
+                    <div class="image-container">
+
+                        <img class='project-image-container__img' src='./img/unity.png'>
+                        <div class="hover-img-container">
+                            <p class="hover-img-container__p">
+                                Unity
+                            </p>
+                            <p class="hover-img-container__p">
+                                C#
+                            </p>
+                            <p class="hover-img-container__p">
+                                Game development
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="button-project-container">
+                        <div>
+
+                            <a class='button-project-container__a' href="#">Ver código</a>
+                        </div>
+                        <!-- <p class="project-image-container__p--active">See Project</p> -->
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+
+            </section>
+            <a class='projects-section-top__anchor-more' href="more.html">más ></a>
+        </section>
+    </main>
+    <footer id='contact' class="footer">
+        <div class="invitation-container">
+            <h2 class="invitation-container__h2">¡Trabajemos juntos!</h2>
+            <!-- <p class="invitation-container__p">How do you take your coffee?</p> -->
+            <div class="contact-anchor-container">
+
+                <a class='contact-anchor' href="./contact.html">Contáctame</a>
+            </div>
+        </div>
+        <div class="social-container">
+
+
+            <a class='social-container__a' href="https://github.com/davidroblesj" target="_blank"><i
+                    class="fab fa-github social-container__a-i"></i>Github</a>
+
+
+            <a class='social-container__a' href="https://www.linkedin.com/in/david-robles-jasso-577b77205/"
+                target="_blank"><i class="fab fa-linkedin-in social-container__a-i"></i>Linkedin</a>
+
+
+            <a class='social-container__a' href="mailto:david.robles2000@hotmail.com"><i
+                    class="fas fa-at social-container__a-i"></i>E-mail</a>
+
+        </div>
+    </footer>
+
+
+    <script src='codigo.js'></script>
+
+</body>
+
+
+</html>

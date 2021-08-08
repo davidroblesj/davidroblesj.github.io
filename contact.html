@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi curso de css</title>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' type="text/css" href="estilo_contact.css" />
+    <link rel='stylesheet' type="text/css" href="./normalize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e0b45ab75d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class='header'>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="index.html#about">About</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="index.html#skills">Skills</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="index.html#work">Projects</a>
+                </li>
+                <li class="nav__ul-li">
+                    <a class="nav__ul-a" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id='work' class="projects-section-top">
+        <div class="container">
+            <div class="contact-box">
+                <!-- <div class="left"></div> -->
+                <form action="https://formsubmit.co/e5da50c3d3d2c5b1484f9b13063809f2" method="POST" class="right">
+                    <h2 class="projects-section-top__h2">Let's get in touch</h2>
+                    <input name='name' type="text" class="field" placeholder="Your Name" required>
+                    <input name='email' type="text" class="field" placeholder="Your Email" required>
+                    <input type="hidden" name='_subject' class="field" placeholder="Subject">
+                    <textarea name='message' placeholder="Message" class="field"></textarea>
+                    <button type="submit" class="btn">Send</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer id='contact' class="footer">
+        <div class="invitation-container">
+            <!-- <h2 class="invitation-container__h2">Or contact me via</h2> -->
+            <p class="invitation-container__p">Or contact me via</p>
+        </div>
+        <div class="social-container">
+
+
+            <a class='social-container__a' href="#"><i class="fab fa-github social-container__a-i"></i>Github</a>
+
+
+            <a class='social-container__a' href="#"><i class="fab fa-linkedin-in social-container__a-i"></i>Linkedin</a>
+
+
+            <a class='social-container__a' href="#"><i class="fas fa-at social-container__a-i"></i>E-mail</a>
+
+        </div>
+    </footer>
+
+
+    <script src='codigo.js'></script>
+
+</body>
+
+
+</html>
