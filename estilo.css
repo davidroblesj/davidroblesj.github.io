@@ -371,14 +371,17 @@ main{
       display: flex;
       align-items: center;
       justify-content: center;
+          /* width: 10rem; */
   }
   .button-project-container__a{
-    
+      outline: red solid 2px;
+    /* display: block; */
     text-align: center;
     border: lightseagreen solid 2px;
    padding: 0.6rem;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: clamp(0.7rem, 1vw, 1.3rem);
+    /* width: 10rem; */
     /* width: clamp(9rem, 8%, 20rem); */
     color: white;
     /* margin: 5rem; */
