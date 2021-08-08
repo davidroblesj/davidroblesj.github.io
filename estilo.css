@@ -288,7 +288,7 @@ main{
    }
 .projects-section-bottom{
     /* outline: green solid 10px; */
-    width: 80%;
+    /* width: 100%; */
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
