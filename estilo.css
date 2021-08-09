@@ -215,7 +215,7 @@ main{
     flex-wrap: wrap;
 }
 .skills-container{
-    outline: steelblue solid 1px;
+    /* outline: steelblue solid 1px; */
     margin: 2rem 0;
 
     /* height: 50vh; */
@@ -282,13 +282,14 @@ main{
     margin: 2rem;
     text-decoration: none;
     font-size: 1.7rem;
-    width: clamp(9rem, 8%, 20rem);
+    padding: 0rem 1.2rem;
+    /* width: clamp(9rem, 8%, 20rem); */
     color: white;
     background-color: rgb(0, 0, 0);
    }
 .projects-section-bottom{
     /* outline: green solid 10px; */
-    /* width: 100%; */
+    width: 80%;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -297,7 +298,8 @@ main{
 .project-image-container{
     /* outline: steelblue solid 5px; */
     background-color: rgb(187, 68, 255);
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
+    margin: 2rem;
     flex-basis: 100px;
     /* height: 200px; */
     position: relative;
@@ -380,7 +382,7 @@ main{
     border: lightseagreen solid 2px;
    padding: 0.6rem;
     text-decoration: none;
-    font-size: clamp(0.5rem, 1vw, 1rem);
+    font-size: clamp(1rem, 1vw, 1.5rem);
     /* width: 10rem; */
     /* width: clamp(9rem, 8%, 20rem); */
     color: white;
@@ -414,6 +416,9 @@ main{
 
 }
 .invitation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* outline: lime solid 5px; */
 
 }
@@ -427,7 +432,7 @@ main{
 .invitation-container__p{
     text-align: center;
     color: #cb97ff;
-    font-size: clamp(1.5rem, 2.2vw, 10rem);
+    font-size: clamp(1.5rem, 2.2vw, 2.2rem);
     margin: 1rem
 }
 .contact-anchor-container{
@@ -435,16 +440,14 @@ main{
 }
 .contact-anchor{
     /* outline: red solid 2px; */
-    display: block;
     text-align: center;
-    border: lightseagreen solid 3px;
-    margin: 3rem auto;
+    border: lightseagreen solid 5px;
+    margin: 2rem;
     text-decoration: none;
-    font-size: clamp(1.2rem, 1.5vw, 5rem);
-
-    width: clamp(8rem, 20%, 20rem);
-    /* width: rem; */
-    color: rgb(255, 255, 255);
+    font-size: clamp(1.1rem, 1.5vw, 2rem);
+    padding: 0rem 1.2rem;
+    /* width: clamp(9rem, 8%, 20rem); */
+    color: white;
     background-color: rgb(0, 0, 0);
    }
 .social-container{
@@ -458,16 +461,21 @@ main{
 .social-container__a{
     color: rgb(0, 132, 255);
     text-decoration: none;
-    font-size: clamp(1.1rem, 1.5vw, 10rem);
+    font-size: clamp(1.1rem, 1.5vw, 2rem);
+    
+}
+.social-container__a:hover{
+    color: rgb(255, 255, 255);
+
     
 }
 .social-container__a-i{
     /* font-size: 2.5rem; */
-    margin: clamp(0.5rem, 1vw, 10rem);
+    margin: clamp(0.5rem, 1vw, 2rem);
 }
 .social-container__a-i--active{
     font-size: 3rem;
-    margin: clamp(0.5rem, 1vw, 10rem);
+    margin: clamp(0.5rem, 1vw, 2rem);
 }
 
 

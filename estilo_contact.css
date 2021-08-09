@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif, cursive;
+    font-family: 'Roboto', cursive;
 }
 html, 
 body {
@@ -106,7 +106,7 @@ main{
 .contact-box{
     /* outline: red solid 10px; */
 	max-width: 600px;
-    /* height: 1000px; */
+    height:80%;
 	display: flex;
 	/* grid-template-columns: repeat(2, 1fr); */
 	justify-content: center;

@@ -4,6 +4,9 @@
 <head>
     <title>Mi curso de css</title>
     <meta charset='utf-8' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel='stylesheet' type="text/css" href="estilo_contact.css" />
     <link rel='stylesheet' type="text/css" href="./normalize.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,12 +38,13 @@
             <div class="contact-box">
                 <!-- <div class="left"></div> -->
                 <form action="https://formsubmit.co/e5da50c3d3d2c5b1484f9b13063809f2" method="POST" class="right">
-                    <h2 class="projects-section-top__h2">Let's get in touch</h2>
-                    <input name='name' type="text" class="field" placeholder="Your Name" required>
-                    <input name='email' type="text" class="field" placeholder="Your Email" required>
-                    <input type="hidden" name='_subject' class="field" placeholder="Subject">
-                    <textarea name='message' placeholder="Message" class="field"></textarea>
-                    <button type="submit" class="btn">Send</button>
+                    <h2 class="projects-section-top__h2">Pongámonos en contacto</h2>
+                    <input name='name' type="text" class="field" placeholder="Tu nombre" required>
+                    <input name='email' type="text" class="field" placeholder="Tu e-mail" required>
+                    <input type="hidden" name='_subject' value='contacto portafolio' class="field"
+                        placeholder="Subject">
+                    <textarea name='message' placeholder="Mensaje" class="field"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
             </div>
         </div>
         </div>
@@ -48,7 +52,7 @@
     <footer id='contact' class="footer">
         <div class="invitation-container">
             <!-- <h2 class="invitation-container__h2">Or contact me via</h2> -->
-            <p class="invitation-container__p">Or contact me via</p>
+            <p class="invitation-container__p">O contáctame vía</p>
         </div>
         <div class="social-container">
 
