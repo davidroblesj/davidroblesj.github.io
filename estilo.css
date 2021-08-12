@@ -172,11 +172,16 @@ main{
     text-align: center;
     border: lightseagreen solid 5px;
     margin: 2rem;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 1.7rem;
-    width: clamp(9rem, 8%, 20rem);
+    /* width: clamp(9rem, 8%, 20rem); */
     color: white;
     background-color: rgb(0, 0, 0);
+
+}
+.about-section-top__anchor-resume:hover{
+    color: rgb(149, 44, 235);
 
 }
 
@@ -205,6 +210,9 @@ main{
     color: white;
     background-color: rgb(0, 0, 0);
    }
+
+
+
 .skills-section-bottom{
 
     width: 80%;
@@ -287,6 +295,10 @@ main{
     color: white;
     background-color: rgb(0, 0, 0);
    }
+   .projects-section-top__anchor-more:hover{
+    color: rgb(149, 44, 235);
+   }
+
 .projects-section-bottom{
     /* outline: green solid 10px; */
     width: 80%;
@@ -389,7 +401,9 @@ main{
     /* margin: 5rem; */
     background-color: rgb(0, 0, 0);
   }
-
+  .button-project-container__a:hover{
+    color: rgb(149, 44, 235);
+}
 
 
 .project-image-container a{
@@ -445,10 +459,13 @@ main{
     margin: 2rem;
     text-decoration: none;
     font-size: clamp(1.1rem, 1.5vw, 2rem);
-    padding: 0rem 1.2rem;
+    padding: 0.2rem 1.2rem;
     /* width: clamp(9rem, 8%, 20rem); */
     color: white;
     background-color: rgb(0, 0, 0);
+   }
+   .contact-anchor:hover{
+    color: rgb(149, 44, 235);
    }
 .social-container{
     /* outline: red solid 5px; */
@@ -459,7 +476,7 @@ main{
 }
 
 .social-container__a{
-    color: rgb(0, 132, 255);
+    color: rgb(114, 2, 219);
     text-decoration: none;
     font-size: clamp(1.1rem, 1.5vw, 2rem);
     
