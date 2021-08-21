@@ -394,6 +394,21 @@ main {
   color: rgb(149, 44, 235);
 }
 
+.button-project-container__a--active {
+  /* outline: red solid 2px; */
+  /* display: block; */
+  text-align: center;
+  border: rgb(0, 0, 0) solid 2px;
+  padding: 0.6rem;
+  text-decoration: none;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  /* width: 10rem; */
+  /* width: clamp(9rem, 8%, 20rem); */
+  color: rgb(0, 0, 0);
+  /* margin: 5rem; */
+  background-color: rgb(194, 180, 180);
+}
+
 .project-image-container a {
   width: 0;
   height: 0px;
